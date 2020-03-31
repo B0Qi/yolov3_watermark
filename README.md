@@ -1,3 +1,8 @@
+# TODO
+Try to reproduce the method in [Large-Scale Visible Watermark Detection and Removal with Deep Convolutional Networks](https://link.springer.com/chapter/10.1007/978-3-030-03338-5_3)
++ YOLO V3 or newer network (like efficient net) for watermarkframe detections. (Hope that this method can run in mobile devices)
++ U-net for waterframe denoise. 
++ Also, experiments of traditional methods based on gradient detection (shown in this [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dekel_On_the_Effectiveness_CVPR_2017_paper.pdf) written in google) 
 # keras-YOLOv3 水印检测模型。在开源的YOLOv3模型基础上，修改部分参数。
 ## 测试结果（test）
 ![](https://github.com/yl305237731/yolov3_watermark/blob/master/test/1.png)
